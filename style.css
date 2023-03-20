@@ -1,0 +1,119 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color:white;
+    box-sizing: border-box;
+    font-family: 'Yeon Sung', sans-serif;
+    
+    
+    
+}
+ul{
+    list-style: none;
+    margin: 0;
+    
+}
+.lista-itens{
+    display: flex;
+    justify-content: center;   
+    margin-top: 2%;
+    
+       
+    
+}
+.lista-itens li a{
+    color: red;
+    font-size: 20px;
+    display: inline;
+    margin-left: 270px;
+    width: 50%;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+    
+}
+
+.background {
+    position: fixed;
+    background-repeat: no-repeat;
+    transition: 0.5s;    
+    
+}
+
+
+
+.background {
+    z-index: 1;    
+    top: 10%;
+    left: 10%;
+    width: 1%;
+    height: 1%;
+    background-size: cover;
+    background-position: 20%;
+    color: black;
+    
+    
+}
+.burger{
+    z-index: 3;
+    top: 20%;
+    left: 50%;
+    display: inline;
+    place-items: center;
+    width: 128px;
+    height: 128px;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    background-color: transparent;
+    color: black;  
+    
+}
+
+.burger, .menu, .background {
+    position: fixed;
+    background-repeat: no-repeat;
+    margin-top: -40px;
+    
+    
+    
+    
+}
+
+
+
+img {
+    width: 200px;
+    height: 200px;
+    padding: 0px;
+    margin-top: 1%;
+    margin: auto;
+    display: block;
+}
+
+.slide {
+    
+    background-repeat: no-repeat;
+    margin: auto;
+    display: block;
+    width: 950px;
+    height: 420px;
+    margin-top: 3%;
+    
+
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 4%;
+}
+p {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 5%;
+    color: brown;
+}
+@media (max-width: 570px) {
+   
+}
